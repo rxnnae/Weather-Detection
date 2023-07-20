@@ -4,7 +4,7 @@
 DHT dht(D5, DHT11);		// Declaring D3 as dht pin 
 WiFiClient client;	// WiFi client object for ThingSpeak 
 long myChannelNumber = 1926981;			// ThingSpeak channel
- const char myWriteAPIKey[] = "1VFI3F76IKJBJQFK";		// ThingSpeak write key
+ const char myWriteAPIKey[] = "API-key";		// ThingSpeak write key
 int sensorPin = A0;	// Raindrop sensor input pin
 int enable2 = 13;	// Raindrop sensor output led pin
 int sensorValue2 = 0;	// Variable to store the value coming from Raindrop sensor
@@ -13,7 +13,7 @@ bool flag = false;	// Boolean to save rain status
 void setup() {
 pinMode(enable2, OUTPUT);		// Setting led pin as output
  Serial.begin(115200);	// Initializing baud rate
- WiFi.begin("Galaxy A32", "chickennoodlesoup");			// Connect to WiFi usinggiven id and password
+ WiFi.begin("wifi-SSID", "wifipassword");			// Connect to WiFi usinggiven id and password
 while (WiFi.status() != WL_CONNECTED)	// WiFi getting connected
 {
 delay(500);
