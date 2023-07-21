@@ -6,7 +6,6 @@
 
 <h2>Introduction</h2>
 <p>The weather monitoring system plays a large utility in varied areas from agricultural growth and development to industrial development. Sensing the weather has been important to man over the centuries. The winds and other weather variables are of equal concern and can have an even greater impact on our modern, high-tech lifestyle. A weather station is that facility on land or sea, which has instruments and devices for observing and measuring atmospheric parameters to provide the information for weather forecasts. Modern weather monitoring systems and networks are designed to make the measurements necessary to track these movements in a cost-effective manner.</p>
-<br>
 <h2>Project Requirements</h2>
 <h3>Hardware Requirements</h3>
 <ul>
@@ -33,9 +32,21 @@
 <li>The Smart Weather Monitoring System's use of much less expensive sensors makes this project very cost-effective.</li>
 </ul>
 <h2>Results</h2>
+<p>With this project we were successful in making a small-scale weather station that would be able to generate and visualize the local surrounding environmental conditions such as temperature, humidity and rain. The data is stored on cloud and the visualization for the same is carried out in cloud as well.</p>
+<p>We first began by carrying out a simulation of the circuit in TinkerCad, a free web app for 3D design, electronics, and coding.</p>
+<p>We then connected the components of the circuit together in a 400-point bread-board, and ran the blinker tests on the Arduino IDE to check if the NodeMCU board was working correctly. The code for the weather station was then uploaded to the board. </p>
+<p>Once the sensor is successfully calibrated, the Arduino board begins its readings and the data gets sent to the ThingSpeak cloud. 
+The temperature is measured in Celsius, while the humidity is measured in Relative Humidity (RH). The rain drop sensor either gives a high (rain detected) or a low (rain not detected) value. 
+We can see here that the readings are taken every millisecond, to ensure more accurate plotting and readings. 
+</p>
+<p>Once the data is read, it is aggregated in the ThingSpeak cloud, which is used to plot graphs of temperature, humidity and rain detection over time. </p>
 
 <h2>Conclusion</h2>
-
+<p>This project aims to measure the various parameters like temperature, humidity and rainfall and continuously monitor them. The data can be stored online which can be used to forecast weather and eventually analyze climate patterns as well as for other meteorological purposes. The system uses a good combination of analog and digital sensors in wired and wireless modes of operation. This system can be used by farmers and agriculturists to monitor the weather conditions in their area, as it is cheap and lightweight in nature, and also provides a graphical representation of the data for easier visualization.</p>
+<h2>Future Work</h2>
+<p>We can also add an SMS feature to indicate to the user if it is about to rain, and the current conditions outside should make it turn unsafe for them. 
+In the future, this model can be used as a basis for a weather prediction model using Artificial Intelligence and Machine Learning models. 
+</p>
 
 
 
