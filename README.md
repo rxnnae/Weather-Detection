@@ -2,7 +2,7 @@
   Weather Detection System
 </p></h1>
 
-<h5>An IOT- based hardware system capable of detecteing the weather changes from various sensor readings. Read on for the details!</h5>
+<h5>An IOT- based hardware system capable of detecting the weather changes from various sensor readings. Read on for the details!</h5>
 
 <h2>Introduction</h2>
 <p>The weather monitoring system plays a large utility in varied areas from agricultural growth and development to industrial development. Sensing the weather has been important to man over the centuries. The winds and other weather variables are of equal concern and can have an even greater impact on our modern, high-tech lifestyle. A weather station is that facility on land or sea, which has instruments and devices for observing and measuring atmospheric parameters to provide the information for weather forecasts. Modern weather monitoring systems and networks are designed to make the measurements necessary to track these movements in a cost-effective manner.</p>
